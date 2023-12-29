@@ -1,33 +1,26 @@
 
 const nombres = ['Nagore', 'Porti', 'Olatz']
 
-function findFuction(array, callBackFunction){
-
-    let result 
+function findFuction(array, callBackFunction) {
+    let result
 
     array.forEach(item => {
 
         const resultCallBack = callBackFunction(item)
 
-        if(result){
-            
+        if (result) {
             return
-
-        }
-        if(resultCallBack){
-            result = item 
         }
         
+        if (resultCallBack) {
+            result = item
+        }
+
     });
 
     return result
-  
-
 }
-
-
-const checkFunction = (string)=> {
+const checkFunction = (string) => {
     return string.includes('o')
 }
-
 console.log(findFuction(nombres, checkFunction))
