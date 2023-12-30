@@ -29,7 +29,7 @@ console.log(indexOfFunction(fruits, 'strawberry'))
 console.log(indexOfFunction(fruits, 'apple'))
 // 0
 
-console.log(indexOfFunction(fruits, 'orange', 3))
+
 // -1
 
 
