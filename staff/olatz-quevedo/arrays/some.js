@@ -9,7 +9,6 @@ function someFunction(array, callbackFunction) {
 
         if (resultCallBack) {
             result = true
-
         }
 
     })
