@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body, html{
+	margin: 0px;
+	height: 100vh;
+	width: 100%;
+	font-family: 'Arial', sans-serif;
+	
+}
+.form-section{
+	height: 40%;
+	width: 100%;
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.title{
+	height: 40%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+h1{
+	color: purple;
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.title-container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.form-container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+label, input{
+	width: 80%;
+	margin: 5% 10% 5% 10%;
+
+}
+.background{
+	background-color: aquamarine;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+input{
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 1px solid rgb(9, 67, 53);
+	border-right: 0px;
+	font-size: 20px;
+}
+input:focus{
+	outline: none;
+}
+
+label{
+	font-size: 20px;
+}
+input::selection{
+	color: black;
+	background-color: aquamarine;
+
+
+}
+.login-button{
+	width: 40%;
+	height: 50px;
+	background-color: rgb(5, 45, 80);
+	color: white;
+	margin: 3% 30% 3% 30%;
+	border-radius: 50px;
+
+}
+.button-text{
+	font-size: 20px;
+
+}
+.link-container{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 16px;
+
+}
+
+.form{
+	width: 100%;
+	height: 80%;
+	margin: 5% 0% 5% 0%;
+}
+
